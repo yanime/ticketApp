@@ -1,0 +1,36 @@
+{
+  "name": "ticketsAppRest",
+  "version": "1.0.0",
+  "description": "Simple REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon",
+    "eslint": "eslint",
+    "lint": "npm run eslint -- . --ext .js",
+    "script": "node utils/index.js",
+    "test": "mocha utils/test/*.js"
+  },
+  "author": {
+    "name": ""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.2.0",
+    "hapi": "^16.6.3",
+    "hoek": "^4.2.1",
+    "inert": "^4.2.0",
+    "joi": "^10.5.2",
+    "vision": "^4.1.1",
+    "csv": "^3.1.0",
+    "csvtojson": "^2.0.0",
+    "date-fns": "^1.29.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.0.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.14.7"
+  }
+}
